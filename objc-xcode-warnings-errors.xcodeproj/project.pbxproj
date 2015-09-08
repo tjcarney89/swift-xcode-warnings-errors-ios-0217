@@ -393,7 +393,6 @@
 		};
 		37BAA216CF4923AD2A5D8F39 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95606C0EEDCF335C36EAC77A /* Pods-unit_tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/objc-xcode-warnings-errors.app/objc-xcode-warnings-errors";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -413,7 +412,6 @@
 		};
 		6B8A816212275BB378DCFE04 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BD823FAC96C9E18E2A0D313 /* Pods-unit_tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/objc-xcode-warnings-errors.app/objc-xcode-warnings-errors";
 				FRAMEWORK_SEARCH_PATHS = (
