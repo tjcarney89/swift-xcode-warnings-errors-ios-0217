@@ -28,7 +28,6 @@
 
 /* Begin PBXFileReference section */
 		0D9F0C921A2AADCC55F05534 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
-		1BD823FAC96C9E18E2A0D313 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
 		24C1FB11648661DA6C39C7E0 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		28C4FACA0ABA4ECD106092ED /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FFD021FCEEE9807EA492C65 /* objc-xcode-warnings-errors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objc-xcode-warnings-errors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,7 +35,6 @@
 		78911D6CCD3D3B89109B7523 /* objc-xcode-warnings-errors-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "objc-xcode-warnings-errors-Prefix.pch"; sourceTree = "<group>"; };
 		7C1ABF9D913EB6D3CC132F42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8B403B51955EB88D146B2733 /* objc-xcode-warnings-errors-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "objc-xcode-warnings-errors-Info.plist"; sourceTree = "<group>"; };
-		95606C0EEDCF335C36EAC77A /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9601018F11B608ABB4E15D04 /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
 		9ADEFBFA2C3BC95DEF8B4D18 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0666A21B0A4FCEB87ACAA2D /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 				A8BB96DE393376922EBA2416 /* UnitTests */,
 				6E4DF90E84A8F60F386D8A9C /* Frameworks */,
 				7FCC90FF94A8C0B38DA45654 /* Products */,
-				B4594983FF521C4D809B74C4 /* Pods */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -150,15 +147,6 @@
 				9EA29376E946778702F534EA /* Tests */,
 			);
 			path = UnitTests;
-			sourceTree = "<group>";
-		};
-		B4594983FF521C4D809B74C4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1BD823FAC96C9E18E2A0D313 /* Pods-unit_tests.release.xcconfig */,
-				95606C0EEDCF335C36EAC77A /* Pods-unit_tests.debug.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		E56103E83E8D0FF1BBF520F1 /* Resources */ = {
