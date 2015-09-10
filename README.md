@@ -11,7 +11,7 @@
   * Incompatible integer to pointer conversion
   * The return statement ends the method
   * Unmatched curly braces `{` `}`
-  * Variables and method calls written outside of a method body
+  * Local variables and method calls written outside of a method body
 
 
 ## Introduction
@@ -30,7 +30,9 @@ Feeling confused is normal, but **don't make the assumption that Xcode knows mor
 
 ![](https://curriculum-content.s3.amazonaws.com/ios/ios-objc-fundamentals-unit/xcode_forgot_how_to_wolf.png)
 
-The rest of the lesson is an interactive walkthrough to show you some basic warnings and errors that you might see in Xcode in order to gain comfort in addressing them.
+That being said, if your watchdog starts barking—investigate. Meaning, don't simply ignore warnings and errors that Xcode presents to you. They're indicators that you may have done something undesirable, signs that your program might behave in a way that you don't want it to. So look into them. Endeavor to keep your code clean from issues. (*Eventually you'll begin working with other programmers in groups who shouldn't be burdened with having to sift through the warnings meant for you when working on their own features in the same project.*)
+
+The rest of this lesson is an interactive walkthrough to show you some basic warnings and errors that you might see in Xcode and to gain comfort in addressing them.
 
 ## Instructions
 
@@ -46,7 +48,7 @@ Upon opening the project, you should see a warning pop up pointing out the `NSSt
 
 This is an "Unused variable" warning that pops up whenever a variable has been created but not utilized. It's simply Xcode pointing out that there's a loose end to the logical flow.
 
-You'll notice that the warning symbol also appears in the tool bar, and that the warning message also displays in the Issue Navigator in the navigator area. These tools can let you quickly jump to the different places in the code where an issue has been identified.
+You'll notice that the warning symbol also appears in the tool bar, and that the warning message also displays in the Issue Navigator in the Navigator area. These tools can let you quickly jump to the different places in the code where an issue has been identified.
 
 ![](https://curriculum-content.s3.amazonaws.com/ios/ios-objc-fundamentals-unit/xcode_unused_variable_full.png)
 
@@ -72,7 +74,7 @@ Uncomment the next two lines that contain `NSInteger x = i + 1;` and `NSLog(@"x:
 
 ![](https://curriculum-content.s3.amazonaws.com/ios/ios-objc-fundamentals-unit/xcode_integer_operation.png)
 
-Click on the warning and you'll see a similar "pointer conversion" message, but also Xcode offers a fix-it option, translating the `i + 1` into `*(i + 1)`. 
+Click on the warning and you'll see a similar "Incompatible integer to pointer conversion" message, but also Xcode offers a fix-it option, translating the `i + 1` into `*(i + 1)`. 
 
 ![](https://curriculum-content.s3.amazonaws.com/ios/ios-objc-fundamentals-unit/xcode_integer_fixit.png)
 
@@ -111,7 +113,7 @@ One of those errors seems correct, "Expected '}'". So why the other two? Because
 
 Whenever you see those three errors together, start checking your curly braces. This is also why style guides discuss guidelines for keeping track of curly braces. 
 
-#### Variables do not belong outside of method bodies
+#### Local variables and method calls do not belong outside of method bodies
 
 Scroll down to the bottom of the file. Uncomment the three lines of code containing the `NSString *message`, `NSInteger j`, and `BOOL itIsKnownKhaleesi` variables. Notice that no warnings or errors pop up even though this is highly problematic. Just to be sure, build the scheme without running it by pressing `⌘` `B`. 
 

@@ -43,7 +43,6 @@
 //itIsKnownKhaleesi = NO;
 
 
-//NSString *useless = [NSString stringWithString:@"Which means the variables above, while permitted, are completely useless."];
-
+//NSString *notLocal = [NSString stringWithString:@"Which means the variables above, while permitted, can't be used in the way that you intend."];
 
 @end
