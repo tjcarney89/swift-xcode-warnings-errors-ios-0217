@@ -87,7 +87,7 @@ That doesn't look good. What's that green line reading `Thread 1: EXC_BAD_ACCESS
 ![](https://curriculum-content.s3.amazonaws.com/ios/ios-objc-fundamentals-unit/xcode_clumsy_canine.jpg)  
 —*Thanks for the help, Xcode.*
 
-The actual solution to this problem is removing the `*` from the declaration of `i`. Do that now so the line reads `NSInteger i = 12;`. Replace the assignment of `x` to the original formula `x + 1`, then run the program again. You should see both lines print in the console:
+The actual solution to this problem is removing the `*` from the declaration of `i`. Do that now so the line reads `NSInteger i = 12;`. Replace the assignment of `x` to the original formula `i + 1`, then run the program again. You should see both lines print in the console:
 
 ```
 i: 12
