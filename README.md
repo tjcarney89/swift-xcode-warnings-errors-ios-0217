@@ -134,4 +134,4 @@ Now you're on your way to becoming the mystical guru that Xcode is not:
 
 
 
-<a href='https://learn.co/lessons/objc-xcode-warnings-errors' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/objc-xcode-warnings-errors' title='Xcode: Warnings and Errors'>Xcode: Warnings and Errors</a> on Learn.co and start learning to code for free.</p>
