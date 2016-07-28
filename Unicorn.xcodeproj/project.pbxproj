@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		506DB71A1B104F32FFCF281C /* Pods_Unicorn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1978ECAC889349FC8F30BE /* Pods_Unicorn.framework */; };
+		5B763E861D4A513000B6722E /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B763E851D4A513000B6722E /* ViewControllerTests.swift */; };
 		5BE81E051D4A4F03008106D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE81E041D4A4F03008106D3 /* AppDelegate.swift */; };
 		5BE81E071D4A4F03008106D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE81E061D4A4F03008106D3 /* ViewController.swift */; };
 		5BE81E0A1D4A4F03008106D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE81E081D4A4F03008106D3 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		4A1978ECAC889349FC8F30BE /* Pods_Unicorn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unicorn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B763E851D4A513000B6722E /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		5BE81E011D4A4F03008106D3 /* Unicorn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unicorn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE81E041D4A4F03008106D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BE81E061D4A4F03008106D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,27 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5B763E841D4A506900B6722E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BE81E041D4A4F03008106D3 /* AppDelegate.swift */,
+				5BE81E081D4A4F03008106D3 /* Main.storyboard */,
+				5BE81E0B1D4A4F03008106D3 /* Assets.xcassets */,
+				5BE81E0D1D4A4F03008106D3 /* LaunchScreen.storyboard */,
+				5BE81E101D4A4F03008106D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B763E871D4A513700B6722E /* Test Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BE81E191D4A4F03008106D3 /* UnicornTests.swift */,
+				5BE81E1B1D4A4F03008106D3 /* Info.plist */,
+			);
+			name = "Test Supporting Files";
+			sourceTree = "<group>";
+		};
 		5BE81DF81D4A4F02008106D3 = {
 			isa = PBXGroup;
 			children = (
@@ -100,12 +123,8 @@
 		5BE81E031D4A4F03008106D3 /* Unicorn */ = {
 			isa = PBXGroup;
 			children = (
-				5BE81E041D4A4F03008106D3 /* AppDelegate.swift */,
 				5BE81E061D4A4F03008106D3 /* ViewController.swift */,
-				5BE81E081D4A4F03008106D3 /* Main.storyboard */,
-				5BE81E0B1D4A4F03008106D3 /* Assets.xcassets */,
-				5BE81E0D1D4A4F03008106D3 /* LaunchScreen.storyboard */,
-				5BE81E101D4A4F03008106D3 /* Info.plist */,
+				5B763E841D4A506900B6722E /* Supporting Files */,
 			);
 			path = Unicorn;
 			sourceTree = "<group>";
@@ -113,8 +132,8 @@
 		5BE81E181D4A4F03008106D3 /* UnicornTests */ = {
 			isa = PBXGroup;
 			children = (
-				5BE81E191D4A4F03008106D3 /* UnicornTests.swift */,
-				5BE81E1B1D4A4F03008106D3 /* Info.plist */,
+				5B763E851D4A513000B6722E /* ViewControllerTests.swift */,
+				5B763E871D4A513700B6722E /* Test Supporting Files */,
 			);
 			path = UnicornTests;
 			sourceTree = "<group>";
@@ -337,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B763E861D4A513000B6722E /* ViewControllerTests.swift in Sources */,
 				5BE81E1A1D4A4F03008106D3 /* UnicornTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
