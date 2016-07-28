@@ -33,7 +33,7 @@ If you implemented these functions correctly, this is what you should see.
 
 ![correct](http://i.imgur.com/FTD5mnr.png)
 
-Notice the green check mark to the left of line 13, it means we implemented both our functions correctly. Lets not jump to the `ViewController.swift` file so you can see *how* I implemented these functions.
+Notice the green check mark to the left of line 13, it means we implemented both our functions correctly. Lets now jump to the `ViewController.swift` file so you can see *how* I implemented these functions.
 
 ![answer](http://i.imgur.com/D8CLzDF.png)
 
