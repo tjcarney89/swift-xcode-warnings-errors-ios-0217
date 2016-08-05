@@ -4,13 +4,7 @@
 
 1. Learn how to work with Tests
 2. Learn the distinction between warning and errors and how to navigate to them with the issue navigator.
-3. Recognize common issues and how to fix them:
-  * Unused variable
-  * Incompatible integer to pointer conversion
-  * The return statement ends the method
-  * Unmatched curly braces `{` `}`
-  * Local variables and method calls written outside of a method body
-  
+
 
 ## Tests
 
