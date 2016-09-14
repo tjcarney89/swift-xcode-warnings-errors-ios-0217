@@ -1,6 +1,0 @@
-framework module Pods_UnicornTests {
-  umbrella header "Pods-UnicornTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

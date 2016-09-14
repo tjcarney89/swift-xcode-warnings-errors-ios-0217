@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
     }
     
-    func loveAgain(person: String) -> String {
+    func loveAgain(_ person: String) -> String {
         
         return person + "♥️"
         

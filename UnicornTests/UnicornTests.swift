@@ -11,24 +11,27 @@ import XCTest
 
 class UnicornTests: XCTestCase {
     
+    let testVC = ViewController()
+    
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testUnicorn() {
+        let expectedResponse = "🦄 🦄 🦄 🦄"
+        let actualResponse = testVC.unicorn()
+        XCTAssertEqual(actualResponse, expectedResponse)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        
+    func testLoveAgain() {
+        let name = "Amanda"
+        let expectedResponse = "Amanda♥️"
+        let actualResponse = testVC.loveAgain(name)
+        XCTAssertEqual(actualResponse, expectedResponse)
     }
     
 }
