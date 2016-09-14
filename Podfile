@@ -11,8 +11,7 @@ target 'Unicorn' do
     inherit! :search_paths
     # Pods for testing
 
-	pod 'Quick', '~> 0.9'
-	pod 'Nimble', '~> 4.1'
+
   end
 
 end
