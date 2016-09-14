@@ -12,6 +12,8 @@ In this lesson we'll cover how to work with tests and how to distinguish between
 
 ## Tests
 
+**NOTE** - The test file might look different from the screenshots below (for now). The reason for that is that we updated our curriculum to work with Swift 3.0 and Xcode 8 which is the latest version as of 9/13/16. When the Quick & Nimble framework have been updated to work with Swift 3.0 (which should be soon!), the screenshots should reflect with what is in the Xcode Project and this note will be removed.
+
 ![Tests](http://i.imgur.com/RZHIJ1E.png)
 
 Throughout this course, you will find that some labs (to be completed by you!) include tests. What are they and why are they useful? Tests are made to ensure that you are implementing the functions correctly.
