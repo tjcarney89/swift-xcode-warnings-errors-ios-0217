@@ -23,7 +23,7 @@ Instructions might look like this:
 ### Create and implement each of the following functions in the `ViewController.swift` file.
 
 * Create a function called `unicorn()` that takes in no arguments but returns a `String`. The `String` that should be returned is a bunch of unicorns, to be exact.. it should be four Unicorn emoji's separated by a space.
-* Create a function called `loveAgain(_:)` that takes in a `String` as an argument which represents an individuals name. This function will also return a `String`. It should take in the individuals name and add  a heart emoji to the end of it and return that `String`.
+* Create a function called `loveAgain(_:)` that takes in a `String` as an argument which represents an individuals name. This function will also return a `String`. It should take in the individual's name and add  a heart emoji to the end of it and return that `String`.
 
 Your workflow for solving labs will require that you read through instructions *just* like the ones above and create those functions.
 
@@ -96,3 +96,5 @@ favoriteActor = "Brad"
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/objc-xcode-warnings-errors' title='Xcode: Warnings and Errors'>Xcode: Warnings and Errors</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-xcode-warnings-errors'>Testing and Xcode Warnings</a> on Learn.co and start learning to code for free.</p>
